@@ -1,0 +1,21 @@
+string = input("Enter a string: ")
+
+vowelCount = 0
+consonantCount = 0
+spaceCount = 0
+other_Characters = 0
+
+for char in string.lower():
+    if char in "aeiou":
+        vowelCount += 1
+    elif char.isalpha():
+        consonantCount += 1
+    elif char.isspace():
+        spaceCount += 1
+    else:
+        other_Characters += 1
+        
+print("Vowels:", vowelCount)
+print("Consonants:", consonantCount)
+print("Spaces:", spaceCount)
+print("Others:", other_Characters)
