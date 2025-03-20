@@ -68,7 +68,7 @@ class ItemManagement:
             print(f"Error: {ve}")
 
 
-# Main program
+
 def main():
     manager = ItemManagement()
 
